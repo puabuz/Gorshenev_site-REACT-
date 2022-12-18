@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
+import Contacts from "./Components/Contacts/Contacts";
+import Afisha from "./Components/Afisha/Afisha";
+// import News from "./Components/News/News";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="wraper_content">
+        <div className="content">
+          <Header />
+          <Routes>
+            <Route path="/" element={<Afisha />} />
+            <Route path="/contacts" element={<Contacts />} />
+            {/* <Route path="/news" element={<News />} /> */}
+          </Routes>
+        </div>
+        <Footer />
+      </div>
+    </>
   );
 }
 
