@@ -1,57 +1,10 @@
 import vkPng from "../../icon/1_vk.png";
 import './DatesList.css';
+import dates from '../../dateList.json'
 
 const DatesList = () => {
-  let dates = [
-    {
-      date: 10,
-      mounth: "января",
-      city: "КАЛИНИНГРАД",
-      place: "Green-club",
-      tickets: "www.google.com",
-      meeteng: "www.google.com",
-    },
-    {
-      date: 12,
-      mounth: "февраля",
-      city: "МОСКВА",
-      place: "Red-club",
-      tickets: "www.google.com",
-      meeteng: "www.google.com",
-    },
-    {
-      date: 16,
-      mounth: "июня",
-      city: "МОСКВА",
-      place: "Yellow-club",
-      tickets: "www.google.com",
-      meeteng: "www.google.com",
-    },
-    {
-      date: 10,
-      mounth: "января",
-      city: "КАЛИНИНГРАД",
-      place: "Green-club",
-      tickets: "www.google.com",
-      meeteng: "www.google.com",
-    },
-    {
-      date: 12,
-      mounth: "февраля",
-      city: "МОСКВА",
-      place: "Red-club",
-      tickets: "www.google.com",
-      meeteng: "www.google.com",
-    },
-    {
-      date: 16,
-      mounth: "июня",
-      city: "МОСКВА",
-      place: "Yellow-club",
-      tickets: "www.google.com",
-      meeteng: "www.google.com",
-    },
-  ];
+ 
+  
   return (
     <>
       {dates.map((item, idx) => {

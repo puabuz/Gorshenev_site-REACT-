@@ -1,0 +1,50 @@
+[
+  {
+    "date": 10,
+    "mounth": "января",
+    "city": "КАЛИНИНГРАД",
+    "place": "Green-club",
+    "tickets": "www.google.com",
+    "meeteng": "www.google.com"
+  },
+  {
+    "date": 12,
+    "mounth": "февраля",
+    "city": "САНКТ-ПЕТЕРБУРГ",
+    "place": "Red-club",
+    "tickets": "www.google.com",
+    "meeteng": "www.google.com"
+  },
+  {
+    "date": 16,
+    "mounth": "июня",
+    "city": "КАЛУГА",
+    "place": "Yellow-club",
+    "tickets": "www.google.com",
+    "meeteng": "www.google.com"
+  },
+  {
+    "date": 10,
+    "mounth": "января",
+    "city": "КАЛИНИНГРАД",
+    "place": "Green-club",
+    "tickets": "www.google.com",
+    "meeteng": "www.google.com"
+  },
+  {
+    "date": 12,
+    "mounth": "февраля",
+    "city": "Череповец",
+    "place": "Red-club",
+    "tickets": "www.google.com",
+    "meeteng": "www.google.com"
+  },
+  {
+    "date": 16,
+    "mounth": "июня",
+    "city": "СМОЛЕНСК",
+    "place": "Yellow-club",
+    "tickets": "www.google.com",
+    "meeteng": "www.google.com"
+  }
+]
